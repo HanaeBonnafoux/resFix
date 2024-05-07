@@ -146,7 +146,7 @@ def main():
     reservoir=Canvas(mainWindow,bg='light grey',height=canvasHeight,width=canvasWidth)
     reservoir.place(x=0,y=0)
 
-    createButton=Button(mainWindow,text='+1 Particles ',command= fcombine)
+    createButton=Button(mainWindow,text='+1 Particle ',command= fcombine)
     createButton.place(x=150,y=510)
 
     rapportButton=Button(mainWindow,text=' Stop ', command=stop_it)
