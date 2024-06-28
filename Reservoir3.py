@@ -12,7 +12,7 @@ listParticles=[]
 Ek=0
 numberParticle=0
 P=0
-#nrT --- ok, what is nrt. Need to figure it out
+#nrT --- Need to figure what nrt is
 flag=1
 
 nbrLabel = None
@@ -72,7 +72,7 @@ def plusOne():
 def fcombine():
     createValidParticle()
     #plusOne(),
-    #lol it is not working
+    #Not working as it should
         
 def move ():
     nbrLabel.config(text='Number of particles =' + str(numberParticle))
